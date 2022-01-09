@@ -15,7 +15,7 @@ int count1(int x, int y)
     return x * 2 + y * 4;
 }
 
-int 鸡兔同笼(int jiao,int a)
+int math(int jiao,int a)
 {
     int temp;
     int call;
