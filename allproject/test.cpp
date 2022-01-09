@@ -1,5 +1,5 @@
-﻿// CMakeProject1.cpp: 定义应用程序的入口点。
-//
+﻿// 此项目无需加入到正式程序
+//这是一个测试文件
 
 #include "all project.h"
 
