@@ -15,7 +15,7 @@ int count1(int x, int y)
     return x * 2 + y * 4;
 }
 
-int math(int jiao,int a)
+int math1(int jiao,int a)
 {
     int temp;
     int call;
@@ -42,7 +42,7 @@ int math(int jiao,int a)
     return 0;
 }
 
-int math1(int x,int y)
+int math2(int x,int y)
 {
     int temp1;
     int temp2;
