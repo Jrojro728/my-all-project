@@ -9,6 +9,15 @@
      此头文件是我所有程序的集合（包括一些我用来偷懒的函数），只要引用此头文件就可以使用我的程序。
 */
 
+int count(int x, int y)
+{
+    std::cout << x << "+" << y << "=" << x + y << "\n";
+    std::cout << x << "-" << y << "=" << x - y << "\n";
+    std::cout << x << "*" << y << "=" << x * y << "\n";
+    std::cout << x << "/" << y << "=" << x / y << "\n";
+
+    return 0;
+}
 
 int count1(int x, int y)
 {

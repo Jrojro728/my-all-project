@@ -7,4 +7,5 @@ int main()
 {
     math1(94, 35);
     math2(10, 3);
+    count(1, 1);
 }
