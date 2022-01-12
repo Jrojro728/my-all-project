@@ -1,6 +1,8 @@
 ﻿#pragma once
 
 #include <iostream>
+#include <ctime>
+#include <cstdlib>
 
 /*
      作者：赵城（苦瓜）
@@ -34,7 +36,7 @@ int math1(int jiao,int a)
     x = a;
     for (call = 0; call < 10000; call++)
     {
-        temp = x * 2 + y * 4;
+        temp = count1(x,y);
         if (jiao == temp)
         {
             std::cout << "========结果========\n";
@@ -60,4 +62,11 @@ int math2(int x,int y)
     std::cout << "这个平行四边形的面积是：" << temp1 * temp2 << "\n";
     
     return 0;
+}
+
+int simplerandom()
+{
+    srand((unsigned)time(NULL));
+
+    return rand();
 }
