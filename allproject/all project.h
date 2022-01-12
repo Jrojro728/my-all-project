@@ -61,3 +61,10 @@ int math2(int x,int y)
     
     return 0;
 }
+
+int simplerandom()
+{
+    srand((unsigned)time(NULL));
+
+    return rand();
+}
