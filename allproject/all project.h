@@ -40,7 +40,7 @@ int math1(int jiao,int a)
         if (jiao == temp)
         {
             std::cout << "========结果========\n";
-            std::cout << "鸡的数量是：" << x << "\n" << "兔子的数量是：" << y << "\n" << "运算了" << call << "次" << "\n";
+            std::cout << "鸡的数量是:" << x << "\n" << "兔子的数量是:" << y << "\n" << "运算了" << call << "次" << "\n";
             break;
         }
         else
@@ -59,7 +59,7 @@ int math2(int x,int y)
     int temp2;
     temp1 = x - y;
     temp2 = x + y;
-    std::cout << "这个平行四边形的面积是：" << temp1 * temp2 << "\n";
+    std::cout << "这个平行四边形的面积是:" << temp1 * temp2 << "\n";
     
     return 0;
 }
